@@ -23,7 +23,7 @@ public abstract class Personagem {
             System.out.println("Personagem está Cansado.. Precisa Comer ou Dormir\nEscolha uma opção:\n-----------------\n1-Comer\n2-Dormir\n-----------------");
             
         }else{
-            System.out.println("Personagem Descansado");
+            System.out.println("Personagem Descansado, Energia: "+energia);
         }
     }
 }

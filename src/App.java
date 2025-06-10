@@ -25,6 +25,9 @@ public class App {
                 break;
             }
             a.verificarE();
+            if (a.getEnergia() >= 5) {
+                break;
+            }
             int opcao = sc.nextInt();
             if (opcao == 1) {
                 a.comer();
@@ -56,6 +59,9 @@ public class App {
                 break;
             }
             k.verificarE();
+            if (k.getEnergia() >= 5) {
+                break;
+            }
             int opcao = sc.nextInt();
             if (opcao == 1) {
                 k.comer();
@@ -87,6 +93,9 @@ public class App {
                 break;
             }
             f.verificarE();
+            if (f.getEnergia() >= 5) {
+                break;
+            }
             int opcao = sc.nextInt();
             if (opcao == 1) {
                 f.comer();
