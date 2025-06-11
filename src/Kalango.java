@@ -19,4 +19,8 @@ public class Kalango extends Personagem{
         energia += 3;
         System.out.println("Comendo... Energia: "+energia);
     }
+
+    public void tabelaFinal() {
+        System.out.println("Kalango Maratonista: "+energia+" Pts de Energia");
+    }
 }

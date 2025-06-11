@@ -20,4 +20,8 @@ public class Abelhinha extends Personagem {
         energia += 4;
         System.out.println("Comendo... Energia: "+energia);
     }
+
+    public void tabelaFinal() {
+        System.out.println("Formiga Trabalhadora: "+energia+" Pts de Energia");
+    }
 }

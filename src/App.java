@@ -105,6 +105,10 @@ public class App {
                 break;
             }
         }
-        System.out.println("\n\t\tFim de Jogo\n-------------------------------------------\nEstatísticas dos personagens:\nAbelhinha Polenizadora: "+a.getEnergia()+" Pts de Energía\nKalango Maratonista: "+k.getEnergia()+" Pts de Energía\nFormiga Trabalhadora: "+f.getEnergia()+" Pts de Energía\n-------------------------------------------");
+        System.out.println("\n\t\tFim de Jogo\n-------------------------------------------\nEstatísticas dos personagens:");
+        a.tabelaFinal();
+        k.tabelaFinal();
+        f.tabelaFinal();
+        System.out.println("-------------------------------------------");
     }
 }

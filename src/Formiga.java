@@ -18,5 +18,9 @@ public class Formiga extends Personagem {
     public void comer() {
         energia += 5;
         System.out.println("Comendo... Energia: "+energia);
-    }        
+    }
+    
+    public void tabelaFinal() {
+        System.out.println("Abelhinha Polenizadora: "+energia+" Pts de Energia");
+    }
   }
