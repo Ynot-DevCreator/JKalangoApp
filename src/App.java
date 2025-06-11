@@ -109,6 +109,6 @@ public class App {
         a.tabelaFinal();
         k.tabelaFinal();
         f.tabelaFinal();
-        System.out.println("-------------------------------------------");
+        System.out.println("\n-------------------------------------------");
     }
 }

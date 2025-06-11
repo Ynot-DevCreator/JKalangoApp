@@ -21,6 +21,11 @@ public class Formiga extends Personagem {
     }
     
     public void tabelaFinal() {
-        System.out.println("Formiga Trabalhadora: "+energia+" Pts de Energia");
+        System.out.print("Formiga Trabalhadora: "+energia+" Pts de Energia");
+        if (energia <= 0) {
+            System.out.print(" - Game Over -\n");
+        }else{
+            System.out.println();
+        }
     }
   }

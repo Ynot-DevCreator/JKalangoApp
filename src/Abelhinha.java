@@ -22,6 +22,11 @@ public class Abelhinha extends Personagem {
     }
 
     public void tabelaFinal() {
-        System.out.println("Abelhinha Polenizadora: "+energia+" Pts de Energia");
+        System.out.print("Abelhinha Polenizadora: "+energia+" Pts de Energia");
+        if (energia <= 0) {
+            System.out.print(" - Game Over -\n");
+        }else{
+            System.out.println();
+        }
     }
 }

@@ -21,6 +21,11 @@ public class Kalango extends Personagem{
     }
 
     public void tabelaFinal() {
-        System.out.println("Kalango Maratonista: "+energia+" Pts de Energia");
+        System.out.print("Kalango Maratonista: "+energia+" Pts de Energia");
+        if (energia <= 0) {
+            System.out.print(" - Game Over -\n");
+        }else{
+            System.out.println();
+        }
     }
 }
