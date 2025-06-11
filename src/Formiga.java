@@ -1,5 +1,11 @@
-public class Formiga extends Personagem {
+public class Formiga extends Personagem implements IArmamento{
     
+    @Override
+    public void atacar() {
+        // TODO Auto-generated method stub
+        
+    }
+
     public Formiga(Integer energia) {
         super(energia);
     }
@@ -7,6 +13,9 @@ public class Formiga extends Personagem {
     @Override
     public void mover() {
         energia -= 2;
+        if (energia < 0) {
+            energia = 0;
+        }
         System.out.println("Movendo... Energia: "+energia);
     }
 

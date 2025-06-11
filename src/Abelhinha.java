@@ -1,6 +1,10 @@
-public class Abelhinha extends Personagem {
-
-
+public class Abelhinha extends Personagem implements IArmamento{
+    
+    @Override
+    public void atacar() {
+        // TODO Auto-generated method stub
+        
+    }
     public Abelhinha(Integer energia) {
         super(energia);
     }
@@ -8,6 +12,9 @@ public class Abelhinha extends Personagem {
     @Override
     public void mover() {
         energia -= 1;
+        if (energia < 0) {
+            energia = 0;
+        }
         System.out.println("Movendo... Energia: "+energia);
     }
 

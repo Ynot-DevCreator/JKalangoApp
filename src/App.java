@@ -24,8 +24,7 @@ public class App {
                 System.out.println("Energia Esgotada - Game Over -");
                 break;
             }
-            a.verificarE();
-            if (a.getEnergia() >= 5) {
+            if (a.verificarE()) {
                 break;
             }
             int opcao = sc.nextInt();
@@ -58,8 +57,7 @@ public class App {
                 System.out.println("Energia Esgotada - Game Over -");
                 break;
             }
-            k.verificarE();
-            if (k.getEnergia() >= 5) {
+            if (k.verificarE()) {
                 break;
             }
             int opcao = sc.nextInt();
@@ -92,8 +90,7 @@ public class App {
                 System.out.println("Energia Esgotada - Game Over -");
                 break;
             }
-            f.verificarE();
-            if (f.getEnergia() >= 5) {
+            if (f.verificarE()) {
                 break;
             }
             int opcao = sc.nextInt();
