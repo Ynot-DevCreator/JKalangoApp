@@ -22,6 +22,6 @@ public class Abelhinha extends Personagem {
     }
 
     public void tabelaFinal() {
-        System.out.println("Formiga Trabalhadora: "+energia+" Pts de Energia");
+        System.out.println("Abelhinha Polenizadora: "+energia+" Pts de Energia");
     }
 }
