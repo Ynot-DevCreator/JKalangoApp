@@ -1,8 +1,10 @@
 import java.util.Scanner;
+import br.com.jkalango.view.JSplash;
 
 public class App {
     public static void main(String[] args) throws Exception {
-     Scanner sc = new Scanner(System.in);
+        //new JSplash();
+        Scanner sc = new Scanner(System.in);
         System.out.println("Quanto será a energia da Abelhinha? (Energia Máxima de 10)");
         int aEnergia = 0;
         aEnergia = sc.nextInt();
