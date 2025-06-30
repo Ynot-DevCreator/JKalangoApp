@@ -41,7 +41,9 @@ public class JIntro extends JFrame {
         @Override
         
         public void actionPerformed(ActionEvent e) {
-            JOptionPane.showMessageDialog(JIntro.this, "Primeira Missão Iniciada");
+            //JOptionPane.showMessageDialog(JIntro.this, "Primeira Missão Iniciada");
+            dispose();
+            new JCadastroJogador();
         }
         });
         setContentPane(panel);

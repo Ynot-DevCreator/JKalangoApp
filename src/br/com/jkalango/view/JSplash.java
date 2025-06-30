@@ -34,8 +34,12 @@ public class JSplash extends JFrame{
         @Override
         
         public void actionPerformed(ActionEvent e) {
+            dispose();
             JOptionPane.showMessageDialog(JSplash.this, "JKalango");
+            dispose();
+            new JIntro();
         }
+
         });
         setVisible(true);
     }
